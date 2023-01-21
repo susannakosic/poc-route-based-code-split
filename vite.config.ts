@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   ]
   ,
   build: {
-    outDir: './docs'
+    outDir: './build'
   },
   preview: {
     port: 3000
