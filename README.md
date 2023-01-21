@@ -11,3 +11,8 @@ First, run `yarn`, then `yarn build` and `yarn preview`. This will build and ser
 Observe that when `Other` link is clicked, a separate code chunk is loaded.
 
 `CTRL + C` stops server. 
+
+
+## Live demo
+
+[poc-route-based-code-split](https://susannakosic.github.io/poc-route-based-code-split/)
