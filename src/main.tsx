@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Router } from "./router";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <BrowserRouter basename="/poc-route-based-code-split">
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Router />
   </BrowserRouter>
 );
