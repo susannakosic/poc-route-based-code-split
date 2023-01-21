@@ -4,16 +4,18 @@ import { visualizer } from 'rollup-plugin-visualizer';
 // https://vitejs.dev/config/
 
 
-export default defineConfig(({ mode }) => ({
-  plugins: [
-    react(),
-    mode === 'analyze' && visualizer({ open: true, filename: "dist2/analysis/bundle-raw-data.html", template: 'raw-data' })
-  ]
-  ,
-  build: {
-    outDir: './build'
-  },
-  preview: {
-    port: 3000
+export default defineConfig(({ mode }) => {
+  return {
+    plugins: [
+      react(),
+      mode === 'analyze' && visualizer({ open: true, filename: "dist2/analysis/bundle-raw-data.html", template: 'raw-data' })
+    ]
+    ,
+    build: {
+      outDir: './build',
+    },
+    preview: {
+      port: 3000
+    }
   }
-}))
+})
