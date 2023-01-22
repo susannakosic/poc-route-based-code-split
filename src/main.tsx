@@ -25,12 +25,17 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <br />
     <div>
       <a
-        href="/analysis/bundle-treemap.html"
+        href={`analysis/bundle-treemap.html`}
         target={"_blank"}
         rel={"noopener noreferrer"}
       >
         <small>Bundle analysis</small>
       </a>
     </div>
+    <p style={{ fontSize: "0.8rem", position: "absolute", bottom: "0" }}>
+      <strong>Disclaimer</strong>: github pages does not support very well
+      BrowserRouter navigation, so browser reload on any path different than
+      home will result in 404.
+    </p>
   </>
 );

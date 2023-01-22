@@ -6,7 +6,7 @@ export const Other = () => {
       I depend on Lodash.
       <p>I' m loaded on demand.</p>
       <p>
-        My point is <em>other.*.js</em>.
+        My entry point is <em>other.*.js</em>.
       </p>
     </div>
   );

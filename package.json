@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "build:github": "tsc && vite build --base /poc-route-based-code-split/",
     "preview": "vite preview",
-    "analyze": "tsc && vite build --mode analyze",
+    "analyze": "tsc && vite build --mode analyze && mv analysis public",
     "predeploy": "npm run build:github",
     "deploy": "gh-pages -d build"
   },
