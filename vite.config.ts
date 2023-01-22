@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       react(),
-      mode === 'analyze' && visualizer({ open: true, filename: "dist2/analysis/bundle-raw-data.html", template: 'raw-data' })
+      mode === 'analyze' && visualizer({ open: true, filename: "analysis/bundle-treemap.html", template: "treemap" })
     ]
     ,
     build: {
