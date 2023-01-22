@@ -13,6 +13,9 @@ Observe that when `Other` link is clicked, a separate code chunk is loaded.
 `CTRL + C` stops server. 
 
 
+## Deploy
+Run `yarn deploy` to deploy to github pages.
+
 ## Live demo
 
 [poc-route-based-code-split](https://susannakosic.github.io/poc-route-based-code-split/)
